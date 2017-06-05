@@ -50,7 +50,7 @@ var questions = [{
     choices4: "Russia",
     correctAnswer: "Czech Republic",
 }, {
-    question: "Name the actress whose career began at the age of 3, and who went on to star in films such as Contact, Maverick and The Silence of the Lambs?",
+    question: "Name the actress in films such as Contact, Maverick and The Silence of the Lambs?",
     choices1: "Drew Berrymore",
     choices2: "Diane Baker",
     choices3: "Jamie Lee Curtis",
