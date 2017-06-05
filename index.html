@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Crystal Game</title>
+    <title>Trivia Game</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
@@ -15,18 +15,31 @@
 <body>
     <div class="container">
         <div class="row">
-            <div id="title" class="col-lg-8">
-                <h1>Trivia Game</h1></div>
-            <div id="tagLine" class="col-lg-8"></div>
-            <div id="question" class="questionField col-lg-8"></div>
-            <div id="answer" class="answerField col-lg-8"></div>
-            <div id="answer1" class="answerField col-lg-8"></div>
-            <div id="answer2" class="answerField col-lg-8"></div>
-            <div id="answer3" class="answerField col-lg-8"></div>
-            <div id="userAlert" class="col-lg-8"></div>
-            <div id="correct" class="col-lg-8">Correct</div>
-            <div id="incorrect" class="col-lg-8">Incorrect</div>
-            <button id="next" type="button" class="btn btn-primary col-lg-8"></button>
+            <img src="assets/images/quizbg.png" class="img-responsive col-lg-12" alt="">
+            <div id="containGame" class="col-lg-6">
+                <div id="questionStyle">
+                    <div id="tagLine" class="col-lg-8"></div>
+                    <div id="question" class="questionField col-lg-8"></div>
+                </div>
+                <div id="answer" class="answerField col-lg-8"></div>
+                <div id="answer1" class="answerField col-lg-8"></div>
+                <div id="answer2" class="answerField col-lg-8"></div>
+                <div id="answer3" class="answerField col-lg-8"></div>
+                <div id="userAlert" class="col-lg-8"></div>
+                <div id="next" class="col-lg-4">Confirm Answer</div>
+            </div>
+        </div>
+        <div id="statStyle" class="row">
+            <div class="col-lg-6">
+                <div id="correct" class="col-lg-3"></div>
+                <div id="incorrect" class="col-lg-3"></div>
+                <div class="col-lg-6" id="timer"> </div>
+            </div>
+        </div>
+        <div id="statStyle2" class="row col-lg-6">
+            <div class="col-lg-3">Correct</div>
+            <div class="col-lg-3">Incorrect</div>
+            <div class="col-lg-6">Timer</div>
         </div>
     </div>
 </body>

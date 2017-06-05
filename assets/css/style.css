@@ -1,0 +1,53 @@
+#containGame {
+    position: relative;
+    left: 638px;
+    bottom: 399px;
+    color: white;
+
+}
+
+#questionStyle {
+	position: relative;
+	bottom: 10px;
+	font-size: 20px;
+}
+
+.answerField {
+	padding-top: 5px;
+}
+.answerField:hover {
+	color: #e6ac27;
+}
+.answerField:active {
+	color: #eacf4e;
+}
+
+#next {
+	background-color: white;
+	color: #e6ac27;
+    position: relative;
+    right: 166px;
+    top: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#next:hover {
+	color: white;
+	background-color: #e6ac27;
+}
+
+#statStyle {
+    position: relative;
+    bottom: 261px;
+    left: 665px;
+    color: white;
+    font-size: 30px;
+}
+#statStyle2 {
+    position: relative;
+    bottom: 338px;
+    left: 659px;
+    color: #e6ac27;
+    font-size: 24px;
+    font-style: 20px;
+}
