@@ -1,5 +1,5 @@
 var clock;
-var counter = 16;
+var counter = 15;
 var correct = 0;
 var incorrect = 0;
 var answerArray = [];
@@ -114,7 +114,7 @@ var self = {
         nextQuesion: function() {
             $("#next").on("click", function() {
                 $("#next").html("Confirm Answer");
-                counter = 16;
+                counter = 15;
                 self.generateHtml();
                 if (answerArray[currentQuestion] === true) {
                     correct++;
@@ -127,7 +127,6 @@ var self = {
                     $("#incorrect").html(incorrect);
                     self.currentQuestion();
                     self.generateHtml();
-
                 }
             })
         },

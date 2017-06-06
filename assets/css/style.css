@@ -1,10 +1,10 @@
 body {
-	background-color: #e4cead;
+    background-color: #e4cead;
 }
 
 .container {
-	position: relative;
-	top: 60px;
+    position: relative;
+    top: 60px;
 }
 
 #containGame {
@@ -12,38 +12,40 @@ body {
     left: 638px;
     bottom: 399px;
     color: white;
-
 }
 
 #questionStyle {
-	position: relative;
-	bottom: 10px;
-	font-size: 20px;
+    position: relative;
+    bottom: 10px;
+    font-size: 20px;
 }
 
 .answerField {
-	padding-top: 5px;
-	font-size: 18px;
+    padding-top: 5px;
+    font-size: 18px;
 }
+
 .answerField:hover {
-	color: #e6ac27;
+    color: #e6ac27;
 }
+
 .answerField:active {
-	color: #eacf4e;
+    color: #eacf4e;
 }
 
 #next {
-	background-color: white;
-	color: #e6ac27;
+    background-color: white;
+    color: #e6ac27;
     position: relative;
     right: 166px;
     top: 20px;
     font-size: 20px;
     border-radius: 10px;
 }
+
 #next:hover {
-	color: white;
-	background-color: #e6ac27;
+    color: white;
+    background-color: #e6ac27;
 }
 
 #statStyle {
@@ -53,6 +55,7 @@ body {
     color: white;
     font-size: 30px;
 }
+
 #statStyle2 {
     position: relative;
     bottom: 410px;
@@ -64,6 +67,5 @@ body {
 }
 
 .statDiv {
-	position: relative;
+    position: relative;
 }
-
